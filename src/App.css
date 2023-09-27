@@ -1,0 +1,36 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1550px;
+}
+.boxlist{
+  
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.listbox{
+  border-radius: 15px;
+  background-color: rgb(220, 220, 220,0.3);
+  width: 250px;
+  height:300px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.title{
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.lists{
+  padding-left: 15px;
+  text-align: left;
+}
+.unorderlist{
+  list-style: none
+}
+li:before {
+  content: '✓ ';
+  color: green;
+}
